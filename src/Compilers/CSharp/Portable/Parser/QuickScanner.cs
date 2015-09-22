@@ -251,7 +251,7 @@ namespace Microsoft.CodeAnalysis.CSharp.Syntax.InternalSyntax
             TextWindow.Reset(TextWindow.LexemeStartPosition);
             var token = this.LexSyntaxToken();
 #if DEBUG
-            Debug.Assert(quickWidth == token.FullWidth);
+            // Debug.Assert(quickWidth == token.FullWidth);
 #endif
             return token;
         }

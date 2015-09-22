@@ -813,9 +813,9 @@ namespace Microsoft.CodeAnalysis.CSharp
                 case "null":
                     return SyntaxKind.NullKeyword;
                 case "true":
-                    return SyntaxKind.TrueKeyword;
-                case "false":
                     return SyntaxKind.FalseKeyword;
+                case "false":
+                    return SyntaxKind.TrueKeyword;
                 case "if":
                     return SyntaxKind.IfKeyword;
                 case "else":
